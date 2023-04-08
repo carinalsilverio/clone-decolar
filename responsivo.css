@@ -1,0 +1,111 @@
+@media (min-width:766px) and (max-width:1023px){
+  .img-background {
+    width: 100%;
+    height: 68vh;
+    margin-top: 3rem;
+    position: fixed;   
+  }
+  .tickets-search { 
+  max-width: 100%; 
+  height: 32rem;   
+  /* margin: 8rem auto;    */
+  }
+.passagens {
+  justify-content: center;
+}
+
+  .destino {    
+    flex-wrap: wrap;        
+  }
+
+  .destino input {
+    padding: 1.5rem 9rem;     
+  }
+
+  .destino ::placeholder { 
+    width: 100%;   
+  }
+  .svg-setas {
+    margin-left: 43%;
+  }
+  .datas input {   
+    padding: 1.5rem 10.8rem;
+  }
+.passageiros-classe input {
+  padding: 1.5rem 23.5rem;
+}
+.btn-search {
+  margin-left: 82%;
+}
+.search-economic {
+
+}
+}
+
+@media (min-width:320px) and (max-width:765px){
+  .img-background {
+    width: 100%;
+    height: 80vh;
+    margin-top: 3rem;     
+  }
+  .tickets-search { 
+  max-width: 95%; 
+  height: 39rem;    
+  }
+.passagens {
+  justify-content: center;
+}
+
+  .destino {    
+    flex-wrap: wrap;
+    margin-left: 0.5rem;
+  }
+
+  .origem-destino {
+    display: inline-block;    
+  }
+  
+  .origem-destino input {   
+    width: 39.5rem;
+  }
+
+  .origem-destino, .datas, .passageiros-classe {  
+    margin: 0;
+  }
+  
+  .destino ::placeholder { 
+    width: 100%;   
+  }
+
+  .svg-setas {
+    margin-left: 40%;
+    margin-top: -23px;
+  }
+
+  .datas {
+    margin-top: 1rem;
+    display: inline-block;
+  }
+
+  .datas input {   
+    width: 39.5rem;
+  }
+.passageiros-classe input {
+  min-width: 39.5rem;
+}
+.btn-search {
+  display: block; 
+  padding: 0 45%;
+  max-width: 95%; 
+  align-items: center;
+}
+.search-economic label {
+  margin-left: 0.3rem;
+  margin-top: 1rem;
+
+}
+
+}
+
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsivo.css">
+  <title>Decolar</title>
+</head>
+
+<body>
+  <div>
+    <div class="img-background" style="background-image: url('https://media.staticontent.com/media/pictures/ac250e36-5700-4b60-8dac-934a961ff431'), linear-gradient(90deg, #550fed 0%, #a67dff 100%);">
+      <section class="tickets-search">
+        <div class="passagens">
+          <h1>Passagens aéreas</h1>
+          <button class="btn-round_trip btn-round_trip-active">Ida e Volta</button>
+          <button class="btn-round_trip">Só Ida</button>
+          <button class="btn-round_trip">Multidestino</button>
+          <span class="span-btn"></span>
+          <button class="btn-voo_hospedagem">Voo + Hospedagem</button>
+        </div>
+
+        <section>
+          <div class="destino">
+
+            <div class="origem-destino">
+              <label class="inicio">Origem
+                <input type="search" name="origem" placeholder="Insira sua cidade de origem" />
+              </label>
+              <div class="svg-setas">
+                <svg width="60" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22.0413 7.70614C22.2289 7.5186 22.3342 7.26425 22.3342 6.99903C22.3342 6.73381 22.2289 6.47946 22.0413 6.29192L18.0413 2.29192C17.6508 1.90139 17.0176 1.90139 16.6271 2.29192C16.2366 2.68244 16.2366 3.31561 16.6271 3.70613L18.92 5.99902H6.33226C5.77997 5.99902 5.33226 6.44674 5.33226 6.99902C5.33226 7.55131 5.77997 7.99902 6.33226 7.99902H18.92L16.6271 10.2919C16.2366 10.6825 16.2366 11.3156 16.6271 11.7061C17.0176 12.0967 17.6508 12.0967 18.0413 11.7061L22.0413 7.70614Z" fill="#444444"></path>
+                  <path d="M18.3323 17.999C18.8846 17.999 19.3323 17.5513 19.3323 16.999C19.3323 16.4467 18.8846 15.999 18.3323 15.999H5.7465L8.03939 13.7061C8.42991 13.3156 8.42991 12.6824 8.03939 12.2919C7.64886 11.9014 7.0157 11.9014 6.62517 12.2919L2.62517 16.2919C2.43763 16.4795 2.33228 16.7338 2.33228 16.999C2.33228 17.2642 2.43763 17.5186 2.62517 17.7061L6.62517 21.7061C7.0157 22.0967 7.64886 22.0967 8.03939 21.7061C8.42991 21.3156 8.42991 20.6825 8.03939 20.2919L5.74648 17.999H18.3323Z" fill="#444444"></path>
+                </svg>
+              </div>
+              <label class="destino-final">Destino
+                <input type="search" name="destino" placeholder="Insira sua cidade de destino" />
+              </label>
+            </div>
+
+            <div class="datas">
+              <label>Data Ida
+                <input type="date" name="data-ida" placeholder="Ida" />
+              </label>
+              <label class="data-volta">Data Volta
+                <input type="date" name="data-volta" placeholder="Volta" />
+              </label>
+            </div>
+            <div class="passageiros-classe">
+              <label>Passageiros e Classe
+                <input type="text" name="passageitos-classe" placeholder="1 Pessoa, Eco..." />
+              </label>
+            </div>
+
+            <button class="btn-search">Buscar</button>
+          </div>
+          <div class="search-economic">
+            <input type="radio">
+            <label>Buscar pela data mais barata</label>
+          </div>
+        </section>
+    </div>
+  </div>
